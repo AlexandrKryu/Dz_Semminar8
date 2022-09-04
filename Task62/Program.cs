@@ -98,7 +98,7 @@ int[,] SpiralMatrix(int[,] matrix)
     return matrix;
 }
 
-int[,] matrix = new int[4, 4];
+int[,] matrix = new int[row, col];
 int[,] matrix1 = SpiralMatrix(matrix);
 Console.WriteLine();
 PrintMatrix(matrix1);
